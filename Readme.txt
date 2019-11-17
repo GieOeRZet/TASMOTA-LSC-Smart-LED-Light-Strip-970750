@@ -30,13 +30,13 @@ on IrReceived#Data=0x00F78877 do color2 #00331E00 endon
 
 #################################################################
 
-rule3
-on IrReceived#Data=0x00F7A857 do color2 #0487b300 endon
-on IrReceived#Data=0x00F7609F do color2 #0000FF00 endon
-on IrReceived#Data=0x00F750AF do color2 #02457500 endon
-on IrReceived#Data=0x00F7708F do color2 #52019400 endon
-on IrReceived#Data=0x00F748B7 do color2 #9C48E000 endon
-on IrReceived#Data=0x00F76897 do color2 #DB16AA00 endon
+rule3 
+on IrReceived#Data=0x00F7A857 do color2 #00332800 endon 
+on IrReceived#Data=0x00F7609F do color2 #0000FF00 endon 
+on IrReceived#Data=0x00F750AF do color2 #0A003300 endon 
+on IrReceived#Data=0x00F7708F do color2 #14003300 endon 
+on IrReceived#Data=0x00F748B7 do color2 #14003300 endon 
+on IrReceived#Data=0x00F76897 do color2 #28003300 endon 
 on IrReceived#Data=0x00F7E01F do color2 #000000FF endon
 
 #################################################################
